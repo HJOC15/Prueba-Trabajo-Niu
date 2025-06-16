@@ -129,7 +129,7 @@ function App() {
   };
 
   // ——————————————————————————————————
-  // Si no hay token, mostramos mensaje (puedes reemplazarlo por un formulario de login)
+  // Si no hay token, mostramos mensaje
   // ——————————————————————————————————
   if (!token) {
     if (!token) {
@@ -182,9 +182,7 @@ function App() {
 
   }
 
-  // ——————————————————————————————————
-  // Renderizado de la UI principal
-  // ——————————————————————————————————
+
   return (
     <div className="container my-4">
       <h1>Colaboradores</h1>
