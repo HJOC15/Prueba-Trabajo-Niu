@@ -96,13 +96,4 @@ Authorization: Bearer <token>
 | PUT    | /colaboradores/:id   | Actualiza un colaborador       |
 | DELETE | /colaboradores/:id   | Elimina un colaborador         |
 
-## Buenas prácticas
-
-- Usa el archivo .env para credenciales y no lo subas al repositorio (.gitignore lo excluye).
-- Emplea nodemon (npm run dev) para desarrollo con recarga automática.
-- Ajusta en index.js y en React los valores limit de paginación si es necesario.
-
----
-
-¡Listo! Sigue estos pasos para instalar, configurar y usar el sistema de gestión de colaboradores y riesgos para COVID.
 
